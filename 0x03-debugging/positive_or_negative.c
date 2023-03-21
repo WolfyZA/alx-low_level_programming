@@ -1,32 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 #include <stdio.h>
-/* more headers goes there */
-/**
-  * main - Entry point
-  *
-  * Description: 'pulls random number and prints negative/positive'
-  * Return: always 0 (Success)
-  */
 
-int main(void)
+void positive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)
+	if (i > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is positive\n", i);
 	}
-	else if (n == 0)
+	else if (i == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is zero\n", i);
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative\n", i);
 	}
-	return (0);
 }
