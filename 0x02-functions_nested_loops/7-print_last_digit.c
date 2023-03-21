@@ -5,7 +5,7 @@
   *@n: input number as integer
   *Return: value of last digit
   */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int l;
 
@@ -20,4 +20,5 @@ int print_last_digit(int n);
 		_putchar(l + 48);
 		return (l);
 	}
+	_putchar('\n');
 }
