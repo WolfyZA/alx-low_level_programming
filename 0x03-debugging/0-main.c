@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  *positive_or_negative - print if the integer is negative/zero/positive
+  *main - print if the integer is negative/zero/positive
   *
-  *return: 0
+  *Description: tells the user if their number is negative/zero/positive
+  *
+  *Return: always 0
   */
 int main(void)
 {
