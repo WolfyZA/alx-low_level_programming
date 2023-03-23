@@ -3,7 +3,6 @@
 /**
  * print_most_numbers - print num except 2 and 4
  *
- *@c : number without 2 or 4
  * return: void
  */
 
